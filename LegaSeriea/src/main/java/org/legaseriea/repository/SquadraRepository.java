@@ -1,5 +1,8 @@
 package org.legaseriea.repository;
 
-public class SquadraRepository {
+import org.legaseriea.entity.Squadra;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SquadraRepository extends JpaRepository<Squadra, Long> {
 
 }
